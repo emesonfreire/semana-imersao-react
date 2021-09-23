@@ -6,7 +6,7 @@ const linkStyle = {
 
 const Tecnologias = () => (
     <div>
-      <section className="services" id="info-academico">
+      <section className="services" id="tecnologias">
             <div className="max-width">
             <h2 className="title">Tecnologias</h2>
                 <div className="serv-content">
