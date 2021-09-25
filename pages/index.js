@@ -2,10 +2,12 @@ import Head from 'next/head';
 import Contatos from '../components/Contatos';
 import InfoAcademico from '../components/InfoAcademico';
 import Menu from '../components/Menu';
+import Perfil from '../components/Apresentacao';
 import Rodape from '../components/Rodape';
 import Sobre from '../components/Sobre';
 import Tecnologias from '../components/Tecnologias';
 import Topo from '../components/Topo';
+import Apresentacao from '../components/Apresentacao';
 
 function Home() {
     return (
