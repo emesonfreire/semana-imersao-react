@@ -17,7 +17,7 @@ const Menu = () => (
                     <li><a href="#info-academico" className="menu-btn">Informações Acadêmicas</a></li>
                     <li><a href="#tecnologias" className="menu-btn">Tecnologias</a></li>
                     <li><a href="#contact" className="menu-btn">Contato</a></li>
-                    <li><a href="certificados.html" className="menu-btn">Certificados</a></li>
+                    <li><a href="#" className="menu-btn">Certificados</a></li>
                     
                 </ul>
                 <div className="menu-btn">

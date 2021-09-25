@@ -6,11 +6,11 @@ const linkStyle = {
     marginRight: 15
 }
 
-const Topo = () => (
+const Apresentacao = () => (
     <div>
-        <section className="top" id="top">
+        <section className="apresentacao1" id="top">
             <div className="max-width">
-                <div className="top-content">
+                <div className="top-content1">
                 <Image src={Perfil} className="perfil" alt="" height="300vh" width="280px"/>
                     <div className="text-1">Sou o talento</div>
                     <div className="text-2">que a sua empresa precisa</div>
@@ -22,4 +22,4 @@ const Topo = () => (
     </div>
 );
 
-export default Topo;
+export default Apresentacao;

@@ -6,9 +6,15 @@ const linkStyle = {
 
 const Sobre = () => (
     <div>
+        
+        
+        
       <section className="services" id="sobre">
             <div className="max-width">
                 <h2 className="title">Sobre</h2>
+                
+                
+                
                         <p>😎📢 Emeson Freire, alagoano arretado e paulista de coração! atualmente resido
                      em São Bernardo do Campo-SP, tenho 26 anos e casado a 7, me considero uma pessoa 
                      multipotencial . Minha trajetória acadêmica começa no IFAL com o curso técnico em 

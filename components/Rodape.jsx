@@ -7,7 +7,7 @@ const linkStyle = {
 const Rodape = () => (
     <div>
       <footer>
-            <span>Create By <a  href="#"> copy Emeson Freire 2021</a></span>
+            <span>Create By <a  href="#"> <i class="far fa-copyright"></i> Emeson Freire 2021</a></span>
         </footer>
     </div>
 );
