@@ -1,4 +1,6 @@
 import Link from "next/link";
+import Image from 'next/image';
+import Perfil from '../public/perfil.jpg'
 
 const linkStyle = {
     marginRight: 15
@@ -12,9 +14,15 @@ const Sobre = () => (
       <section className="services" id="sobre">
             <div className="max-width">
                 <h2 className="title">Sobre</h2>
+                <div className="apresenta">
+
+                <Image src={Perfil} className="perfil" alt="" height="300vh" width="280px"/>
+                    <div className="text-1">Sou o talento</div>
+                    <div className="text-2">que a sua empresa precisa</div>
+                    <div className="text-3">Procuro uma oportunidade Front End, você pode me ajudar?😁</div>
+                    <a href="mailto:emeson.freire@hotmail.com?subject= posso te ajudar com uma vaga front end">Entrar em Contato</a>
                 
-                
-                
+                </div>
                         <p>😎📢 Emeson Freire, alagoano arretado e paulista de coração! atualmente resido
                      em São Bernardo do Campo-SP, tenho 26 anos e casado a 7, me considero uma pessoa 
                      multipotencial . Minha trajetória acadêmica começa no IFAL com o curso técnico em 
