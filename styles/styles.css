@@ -24,6 +24,7 @@ body{
     padding: 20px 0;
     background-color: #141b29;
     border-bottom: solid #1b202a 1px;
+    font-family: cursive;
 }
 .navbar .max-width{
     display: flex;
@@ -88,43 +89,63 @@ section{
     }
 }
 .top{
-    color: #fff;
+    color: rgb(255, 255, 255);
     display: flex;
-    background: url('../public/topo_v2.jpg') no-repeat center;
-    height: 100vh;
+    background: url('../public/topo_v4.jpg') no-repeat center;
+    height: 130vh;
     min-height: 500px;
     background-attachment: fixed;
     background-size: cover;
     font-family: 'Ubuntu', sans-serif;
     text-align: right;
+    border-radius: 5%;
+}
+.apresentacao1{
+    color: rgb(255, 255, 255);
+    display: flex;
+    background-color: #040220;
+    height: 130vh;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: right;
+    border-radius: 5%;
 }
 .top .max-width{
     width: 100%;
     display: flex;
 }
-.top .top-content .perfil{
-    width: 15%;
+.top .top-content {
+    width: 100%;
     margin-top: 100px;
-    margin-left: 18px;
+    margin-right: auto;
     border-radius: 5%;
+    color: #ff5f02;
     
 }
+
 .top .top-content .text-1{
     font-size: 25px;
     margin-top: 100px;
+    
+   
 }
 .top .top-content .text-2{
     font-size: 55px;
     font-weight: 400;
-    margin-left: -3px;
+    
+    
+    
 }
 .top .top-content .text-3{
     font-size: 32px;
     margin: 5px 0;
+
 }
 .top .top-content a{
     display: inline-block;
-    background: #330274;
+    background: #ff3c00;
     color: rgb(248, 248, 248);
     font-size: 25px;
     padding: 12px 36px;
@@ -334,7 +355,7 @@ section{
 
 
 footer{
-    background-color: #280753;
+    background-color: #040220;
     padding: 25px 23px;
     color: #fff;
     text-align: center;
@@ -343,10 +364,10 @@ footer{
     width: 100%;
 }
 footer span a{
-    color: #547ec7;
+    color:#b6b6b6;
 }
 footer span a:hover{
-    color: #fff;
+    color: rgb(216, 214, 219);
 }
 /* estilização da página de certificado*/
 
